@@ -1,0 +1,133 @@
+/*@import './base.css';*/
+*{
+  box-sizing: border-box;
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /*border: 1px green solid;*/
+  font-weight: normal;
+  background-color: white;
+  
+}
+
+#header{
+  
+  
+  background-color: #003d29;
+  font-size: 8px;
+  color: #b0bdb6;
+  height: 20px;
+  
+  padding: 5px;
+}
+
+#headerchild{
+  display: flex;
+  align-items: center;
+  /*border: 1px red solid;*/
+  width: 90%;
+  margin: auto;
+}
+
+
+#headerchild div span{
+  margin-left: 15px;
+}
+
+#bannerHeader{
+  display: flex;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+  /*border: 1px solid green;*/
+}
+
+
+#bh1{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 60px;
+}
+
+#bh2{
+  margin-left: 85px;
+  /*border: 1px solid red;*/
+  flex-grow: 2;
+}
+
+.bh2child{
+  margin-left: 70px;
+  
+}
+
+#bh1 a, #bh2 a{
+  text-decoration: none;
+}
+
+
+#banner{
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  /*border: 1px solid red;*/
+  background-color: #fbf0e4;
+  position:relative;
+}
+#banner1{
+  position: absolute;
+  top: 20%;
+  left: 80px;
+}
+#banner1 h1{
+  width: 350px;
+}
+
+#banner img{
+  margin-left: 700px;
+  color: white;
+  /*border: 1px solid red;*/
+  max-width: 100%;
+  height: 100%;
+}
+
+#filters{
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  
+}
+
+.filterddown{
+  margin-right: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #EBEDEd;
+  height: 30px;
+  font-size: 11px;
+}
+
+.filterddownlast{
+  margin-left: 31%;
+  border-radius: 25px;
+  border: none;
+  background-color: #EBEDEd;
+  height: 30px;
+  font-size: 11px;
+}
+
+#mainbody{
+  width: 90%;
+  margin: auto;
+}
+
+#bodydata{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
